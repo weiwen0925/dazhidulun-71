@@ -1470,5 +1470,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C71P6:END-->
+<!--WY-C71P7:BEGIN-->
+<style id="wy-c71p7-css">
+.c71p7-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c71p7-fabbox.show{display:block;}
+.c71p7-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c71p7-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c71p7-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c71p7-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c71p7-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c71p7-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c71p7-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c71p7-modal.open{display:flex;}
+.c71p7-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c71p7-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c71p7-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c71p7-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c71p7-close:hover{background:#e3d5b8;}
+.c71p7-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c71p7-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c71p7-tbl th,.c71p7-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c71p7-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c71p7-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c71p7-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c71p7-tbl b{color:#8b2500;}
+.c71p7-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c71p7-note b{color:#8b2500;}
+@media(max-width:900px){.c71p7-fabbox{right:14px;}.c71p7-tbl{font-size:11.5px;}.c71p7-card{padding:26px 14px 16px;}}
+</style>
+<div class="c71p7-fabbox" id="c71p7Box"><button class="c71p7-btn" id="c71p7Btn" type="button" aria-label="開啟全景總表"><span class="c71p7-ic">▦</span><span class="c71p7-ls"><span class="c71p7-l1">本品 · 釋趣一切智品</span><span class="c71p7-l2">趣一切種智 · 無所修不受修壞修</span></span></button></div><div class="c71p7-modal" id="c71p7Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c71p7-card"><button class="c71p7-close" id="c71p7Close" type="button" aria-label="關閉">×</button><h3>卷七十一·第七品 釋趣一切智品 · 全景總表</h3><p class="sub">卷七十一・第七品｜解深般若當趣何所趣薩婆若・三種遮詮無修之修・阿鞞跋致驗試・空亦復空</p><table class="c71p7-tbl"><caption>一、趣薩婆若與破邪顯正（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>須菩提之問</td><td>是諸菩薩摩訶薩解深般若波羅蜜者，當趣何所？——般若本性畢竟空無去無來，「趣」之問看似矛盾，實為引發一切論辯的鎖鑰</td></tr><tr><td>佛答趣一切種智</td><td>當趣一切種智（薩婆若）——修般若波羅蜜即是修一切諸法，其修之相狀為無所修、不受修、壞修三相</td></tr><tr><td>破常顛倒</td><td>外道言諸法從因趣果、從先世入今世，執著實體主體在時空位移；中觀破是常顛倒，言無趣不趣——勝義中無一實體在移動</td></tr><tr><td>觀去來品映射</td><td>已去無有去，未去亦無去，離已去未去，去時亦無去——三輪推勘無一去者去法去時可得，趣薩婆若只是世俗方便施設語言</td></tr><tr><td>無著心因果相順</td><td>須菩提以無著心問，佛以無著心答；般若（因）與一切種智（果）皆畢竟空、皆無障無礙，性質相同，故可說因趣於果</td></tr></tbody></table><table class="c71p7-tbl"><caption>二、歸趣動力學與三種無修之修（體用不二與遮詮實修）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>菩薩為眾生所歸趣</td><td>如子為苦惱所逼則趣父母——菩薩因大悲心故常修習般若，能解一切諸法皆入般若波羅蜜，是故修般若即修一切法</td></tr><tr><td>雙重動力學</td><td>對內動力：煩惱逼迫時心趣向般若空性（智慧的歸趣）；對外動力：以大悲心不捨眾生，常修般若不退入涅槃（慈悲的歸趣）</td></tr><tr><td>無所修</td><td>般若無定實法可得，故說無所修——非「不修」，而是不執著於有一固定實體對象可修，照見所修對象之自性空</td></tr><tr><td>不受修</td><td>一切諸觀有過故不受——修行者易於所觀之觀法上起細微能觀執取，論主指出一切觀念皆有過，不可受取為實</td></tr><tr><td>壞修</td><td>一切法無常散壞，可破壞法者所謂色等乃至一切種智——壞非物理摧毀，是以智慧照見緣起即無常、無常即空的動態解構</td></tr></tbody></table><table class="c71p7-tbl"><caption>三、阿鞞跋致驗試與空亦復空（終極法執檢驗）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>阿鞞跋致驗試標準</td><td>若菩薩於深般若波羅蜜中不著，當知是阿鞞跋致——不僅於世間法不著，連對般若本身、對空本身亦不可起執</td></tr><tr><td>行般若二種</td><td>第一種因般若觀一切法畢竟空、般若亦自空（真實不退）；第二種能觀諸法空卻不能觀般若亦空（相似般若，微細法執）</td></tr><tr><td>掃把自掃</td><td>般若如掃把用以掃淨煩惱之灰，灰盡則掃把亦不可留存於心，否則掃把本身又成新的塵垢——空亦復空的實修心法</td></tr><tr><td>菩薩階位矩陣</td><td>上士（般若破世間，般若亦自破，醫病雙泯）；中士（用般若破世間但執著般若法門，藥病未除）；下士（執著世間實有，被病所困）</td></tr><tr><td>二諦圓融總圖</td><td>勝義諦：非趣畢竟空無去無來；世俗諦：歸趣因果相順無礙通達——雖知無去無來而勤趣佛道，雖知無證無得而志求薩婆若</td></tr></tbody></table><p class="c71p7-note">本品以須菩提「解深般若當趣何所」一問，導引出「非趣亦非不趣」（勝義畢竟空）卻又「趣一切種智」（世俗因果相順）的核心辯證，直接映射《中論》觀去來品的破常顛倒邏輯。龍樹以「無所修、不受修、壞修」三種遮詮術語重新定義修行本質——<b>真修非能修對所修的對立行為，而是以般若智慧主動解構修行過程中的法執</b>。終極檢驗標準是阿鞞跋致於深般若中能否「不著」：不僅不著世間法，更要連般若本身、空本身亦不執取，是為「空亦復空」。全品收於「雖知無去無來，而勤趣佛道」的二諦圓融心要偈，體用不二於日用中活生生展現。</p></div></div>
+<script id="wy-c71p7-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c71p7Btn"),BOX=document.getElementById("c71p7Box"),MODAL=document.getElementById("c71p7Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=6;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c71p7Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C71P7:END-->
 </body>
 </html>
