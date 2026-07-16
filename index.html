@@ -1985,5 +1985,61 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH71P2:END-->
+<!--WY-BH71P3:BEGIN-->
+<style id="wy-bh71p3-css">
+.bh71p3-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh71p3-fabbox.show{display:block;}
+.bh71p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a69,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh71p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh71p3-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh71p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh71p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh71p3-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh71p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh71p3-modal.open{display:flex;}
+.bh71p3-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh71p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh71p3-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh71p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh71p3-close:hover{background:#dde2e6;}
+.bh71p3-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh71p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh71p3-tbl th,.bh71p3-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh71p3-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh71p3-tbl thead th:nth-child(1){width:32%;}.bh71p3-tbl thead th:nth-child(2){width:41%;}.bh71p3-tbl thead th:nth-child(3){width:27%;}
+.bh71p3-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh71p3-guan{background:#eef2f5;color:#37505f;}
+.bh71p3-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh71p3-tbl tbody tr:nth-child(even) td.bh71p3-guan{background:#e8eef2;}
+.bh71p3-tbl b{color:#8b2500;}
+.bh71p3-guan b{color:#2f6b5a;}
+.bh71p3-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh71p3-note b{color:#8b2500;}
+@media(max-width:900px){.bh71p3-fabbox{right:14px;}.bh71p3-tbl{font-size:11px;}.bh71p3-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh71p3-fabbox" id="bh71p3Box"><button class="bh71p3-btn" id="bh71p3Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh71p3-ic">譯</span><span class="bh71p3-ls"><span class="bh71p3-l1">本品 · 原文·白話·中觀</span><span class="bh71p3-l2">白話翻譯表</span></span></button></div><div class="bh71p3-modal" id="bh71p3Modal" role="dialog" aria-modal="true"><div class="bh71p3-card"><button class="bh71p3-close" id="bh71p3Close" type="button" aria-label="關閉">×</button><h3>卷七十一 · 第3品 釋方便品 白話翻譯表</h3><p class="sub">《大智度論》卷七十一 · 釋方便品 · 原文↔白話↔中觀概念 逐段對照（以我我所心行六度著相非波羅蜜·遠離此彼岸是波羅蜜相·無方便以六度自高我慢病·有方便無我我所行六度疾得菩提·知此岸知彼岸即了本空·失行之因分別著行·立方便之名令義明豁·有方便雙軌福德力與智慧力並運）</p><table class="bh71p3-tbl"><caption>《大智度論》卷七十一·原文｜白話翻譯｜中觀概念（共6段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh71p3-src">爾時，佛語須菩提言：「善哉！善哉！須菩提！汝為諸菩薩摩訶薩問佛是事。須菩提！若有求佛道善男子、善女人，從初發意已來，以我我所心布施、持戒、忍辱、精進、禪定、智慧；是善男子、善女人布施時作是念：『我是施主，我施是人，我施是物。我持戒，我修忍，我精進，我入禪，我修智慧。』是善男子、善女人念『有是施，是我施』，乃至念『有是慧，是我慧』。何以故？檀波羅蜜中無如是分別，遠離此彼岸是檀波羅蜜相；尸羅波羅蜜、羼提波羅蜜、毘梨耶波羅蜜、禪波羅蜜，般若波羅蜜中無如是分別。何以故？遠離此彼岸是般若波羅蜜相。是人不知此岸、不知彼岸，是人不為檀波羅蜜乃至不為一切種智所護故，墮聲聞、辟支佛地，不能到薩婆若。」</td><td>這時，佛對須菩提說：「好極了、好極了！須菩提！你能為諸位大菩薩向佛請問這件事。須菩提！若有求佛道的善男子、善女人，從最初發心以來，都是以『我、我所』之心去行布施、持戒、忍辱、精進、禪定、智慧；這善男子、善女人布施時起這樣的念頭：『我是布施的施主，我布施給這個人，我布施的是這件財物。我在持戒，我在修忍辱，我在精進，我在入禪定，我在修智慧。』這人心心念念『有這樣一件布施、這是我的布施』，乃至念『有這樣一種智慧、這是我的智慧』。為什麼這樣不對？因為真正的布施波羅蜜中並沒有這種我、我所的分別——遠離『此岸、彼岸』的對立才是布施波羅蜜之相；持戒、忍辱、精進、禪定乃至般若波羅蜜中，也都沒有這種分別。為什麼？因為遠離此岸彼岸的對立正是般若波羅蜜之相。這種著相的人既不知此岸、也不知彼岸，因為不被布施波羅蜜乃至一切種智所守護，便墮入聲聞、辟支佛地，不能到達薩婆若（一切智）。」</td><td class="bh71p3-guan"><b>我我所心行六度·著相則非波羅蜜</b>——本品開宗即立「有方便／無方便」之判。龍樹藉佛語點出：以「我為施主、我施此人、我施此物」的三輪執著（能施、受者、施物皆實有）去行六度，只是有漏善，並非「波羅蜜（到彼岸）」。中觀的核心尺度是「遠離此彼岸」——真正的波羅蜜相是連「此岸／彼岸」的分別都超越的畢竟空；著我我所者困在能所對立中，故「不知此岸彼岸」，善根不受般若之護而墮二乘。</td></tr><tr><td class="bh71p3-src">「須菩提！云何求佛道人無方便？須菩提！求佛道人從初發心已來無方便行布施、持戒、忍辱、精進、禪定、修智慧。是人作如是念：『我布施，施是人，以是物施；我持戒、修忍辱、勤精進、入禪定，修智慧、如是修智慧。』是人念有是施、是我施，以是施自高；念有是戒、是我戒，以是戒自高；念有是忍、是我忍，以是忍自高；念有是精進、是我精進，以是精進自高；念有是禪定、是我禪定，以是禪定自高；念有是慧、是我慧，以是慧自高。何以故？檀波羅蜜中無如是分別，遠離此彼岸是檀波羅蜜相；遠離此彼岸是尸羅波羅蜜相；遠離此彼岸是羼提波羅蜜相；遠離此彼岸是毘梨耶波羅蜜相；遠離此彼岸是禪波羅蜜相；遠離此彼岸是般若波羅蜜相。何以故？般若波羅蜜中無如是憶念分別。是求佛道善男子、善女人不知此岸、不知彼岸，是人不為檀波羅蜜所護，不為尸羅波羅蜜、羼提波羅蜜、毘梨耶波羅蜜、禪波羅蜜、般若波羅蜜所護故，乃至不為一切種智所護故，或墮聲聞道中、或墮辟支佛道中，不能得到薩婆若。如是，須菩提！菩薩摩訶薩不為般若波羅蜜、方便力所守護故，或墮聲聞地、或墮辟支佛道中。」</td><td>「須菩提！什麼叫求佛道的人『沒有方便』呢？須菩提！求佛道的人從初發心以來，就以無方便的方式行布施、持戒、忍辱、精進、禪定、修智慧。這人起這樣的念頭：『我在布施，布施給這個人，用這件物布施；我在持戒、修忍辱、勤精進、入禪定、修智慧、這樣修智慧。』他心念有這樣一件布施、這是我的布施，便以布施自高自傲；心念有這樣的戒、這是我的戒，便以持戒自高；心念有這樣的忍、這是我的忍，便以忍辱自高；心念有精進、有禪定、有智慧、都是『我的』，便一一以之自高。為什麼這都不對？因為布施波羅蜜中沒有這種分別——遠離此岸彼岸才是布施波羅蜜之相；同樣，遠離此彼岸才是持戒、忍辱、精進、禪定、般若波羅蜜之相。為什麼？因為般若波羅蜜中沒有這種憶念分別。這求佛道的人既不知此岸、也不知彼岸，因為不被布施乃至般若波羅蜜、乃至一切種智所守護，便或墮聲聞道、或墮辟支佛道，不能到達薩婆若。像這樣，須菩提！菩薩若不被般若波羅蜜與方便力所守護，就會或墮聲聞地、或墮辟支佛道。」</td><td class="bh71p3-guan"><b>無方便詳釋·以六度自高的我慢病</b>——此段是「無方便」的細部診斷。龍樹反覆鋪陳「以施自高、以戒自高……以慧自高」，揭出著相修行的真正病灶不只是「有所得」，更滋生「我慢」——把每一度都變成墊高自我的資本。中觀的對治是「般若中無憶念分別」：唯有空慧照破能修之我、所修之法，六度才脫離自高的染污而成真波羅蜜。著相者「不知此彼岸」，正因我慢遮蔽了畢竟空，故失六度之護而墮二乘。</td></tr><tr><td class="bh71p3-src">「須菩提！云何菩薩摩訶薩為般若波羅蜜、方便力所守護故，不墮聲聞、辟支佛道中，疾得阿耨多羅三藐三菩提？須菩提！菩薩從初已來，以方便力布施，無我、我所心布施，乃至無我、我所心修智慧；是人不作是念：『我有是施，是我施。』不以是施自高；乃至般若波羅蜜亦如是。是菩薩不念『我布施』，不念『我施是人，用是物施』；不念『我持戒，有是戒』；不念『我忍辱，有是忍辱』；不念『我精進，有是精進』；不念『我禪定，有是禪定』；不念『我修智慧，有是智慧。』何以故？是檀波羅蜜中無如是分別，遠離此彼岸是檀波羅蜜相；遠離此彼岸是尸羅波羅蜜相；遠離此彼岸是羼提波羅蜜相；遠離此彼岸是毘梨耶波羅蜜相；遠離此彼岸是禪波羅蜜相；遠離此彼岸是般若波羅蜜相。何以故？是般若波羅蜜中無如是憶想分別。是菩薩摩訶薩知此岸、知彼岸，是人為檀波羅蜜所護、為尸羅波羅蜜所護、為羼提波羅蜜所護、為毘梨耶波羅蜜所護、為禪波羅蜜所護、為般若波羅蜜所護，乃至為一切種智所護故，不墮聲聞、辟支佛地，得到薩婆若。如是，須菩提！菩薩摩訶薩為般若波羅蜜、方便力所護故，不墮聲聞、辟支佛地，疾得阿耨多羅三藐三菩提。」</td><td>「須菩提！那麼，菩薩又是怎樣因被般若波羅蜜與方便力所守護，而不墮聲聞、辟支佛道、迅速證得無上正等正覺的呢？須菩提！菩薩從最初以來，就以方便之力行布施，以『無我、無我所』之心布施，乃至以無我我所之心修智慧；這人不起『我有這樣一件布施、這是我的布施』的念頭，不以布施自高；乃至修般若波羅蜜也是這樣。這菩薩不念『我在布施』，不念『我布施給這個人、用這件物布施』；不念『我在持戒、有這樣的戒』；不念『我在忍辱、有這樣的忍』；不念『我在精進』『我在禪定』『我在修智慧、有這樣的智慧』。為什麼能如此？因為布施波羅蜜中本無這種分別——遠離此岸彼岸才是布施乃至般若波羅蜜之相。為什麼？因為般若波羅蜜中沒有這種憶想分別。這位菩薩既知此岸、也知彼岸（了達其本空無二），這人便被布施、持戒、忍辱、精進、禪定、般若波羅蜜乃至一切種智所守護，因而不墮聲聞、辟支佛地，能到達薩婆若。像這樣，須菩提！菩薩因被般若波羅蜜與方便力所守護，就不墮二乘地，迅速證得無上正等正覺。」</td><td class="bh71p3-guan"><b>有方便·無我我所行六度而疾得菩提</b>——與前二段正反相形，此段揭示「有方便」的正相：以「無我、無我所」之心行六度，三輪體空、不以任何一度自高。中觀的弔詭在於「知此岸、知彼岸」——恰因了達此彼岸皆本空無二，才真正「知」之；著相者反因執實而「不知」。無所得的空慧即是最深的方便，使六度成真波羅蜜、受般若之護，故「疾得菩提」。此正呼應前品「不取不著故能成辦」。</td></tr><tr><td class="bh71p3-src">釋曰：爾時，佛可須菩提意，更說失行因緣：「菩薩雖行信等善法，亦不得無上道，所謂以我、我所心行六波羅蜜故。」是中無分別此岸、彼岸，以遠離相是般若波羅蜜；而分別著行，是為失。</td><td>論釋說：這時，佛印可須菩提的提問之意，進一步說明「修行退失」的因緣：「菩薩雖然也在行信等善法，卻仍得不到無上道，原因就在於他是以『我、我所』之心去行六波羅蜜。」在真實的波羅蜜中，本無此岸、彼岸的分別，以『遠離一切相』為般若波羅蜜之相；而著相者卻起分別、執著於所行之行——這就是退失的根由。</td><td class="bh71p3-guan"><b>失行之因·分別著行即失波羅蜜</b>——龍樹總結經義，把「失行因緣」精確定位於「以我我所心行六度」。中觀的判準始終一貫：波羅蜜的本質是「無分別、遠離相」的畢竟空；一旦「分別著行」——執有能行之我、所行之法、所度之岸——即落有所得，善法便退化為有漏，失其到彼岸之力。此段承前品，把「取著」進一步落實為修道實踐中最隱微的法執。</td></tr><tr><td class="bh71p3-src">上佛雖說無方便義，不說無方便名；欲令是事明了故，命須菩提：「云何有方便、無方便？」</td><td>前面佛雖已講說了「無方便」的義理，卻還沒有標舉出「無方便」這個名目（把它作為一個明確的概念提出來）；為了讓這件事更加明白，佛便囑命須菩提，提出設問：「究竟什麼叫『有方便』、什麼叫『無方便』？」</td><td class="bh71p3-guan"><b>立「方便」之名·令義理明豁</b>——龍樹注意到經文的教學次第：先說「義」（著相修行之過），後立「名」（有方便／無方便）。中觀重視「名義相成」——義理若無恰當名目標舉，聞者難以把捉。「方便」一名的確立，使前文散說的「以般若統攝六度、令善根不退」之義，凝聚為可操作、可自檢的修道綱領：菩薩當時時審察自己所行是「有方便（無所得）」還是「無方便（著我我所）」。</td></tr><tr><td class="bh71p3-src">內無我、我所心，外觀一切法空不取相，般若、方便乃至一切種智守護菩薩故，名有方便。守護者，五波羅蜜邊得功德力，般若波羅蜜邊得智慧力——以二因緣故不失道。</td><td>（論主界說「有方便」：）內裡沒有『我、我所』的執心，外面觀照一切法皆空、不取著諸相，如此則般若、方便乃至一切種智都能守護這位菩薩，這就叫「有方便」。所謂「守護」，是指：從布施等五波羅蜜這一邊，得到『功德之力』；從般若波羅蜜這一邊，得到『智慧之力』——由於這功德與智慧二種因緣，菩薩才不退失佛道。</td><td class="bh71p3-guan"><b>有方便的雙軌·福德力與智慧力並運</b>——龍樹為全品作結，給出「有方便」的完整定義：內遣我我所（人空）、外觀法空不取相（法空），內外雙泯即是方便。更點出「守護」的雙重結構——五度供給「功德力（福德資糧）」、般若供給「智慧力（空慧資糧）」，二力如車兩輪、鳥雙翼。中觀的圓熟正在此福慧雙運：唯有空慧不離六度、六度不離空慧，菩薩才「不失道」而直趣一切智，這也正是本卷「般若方便為不退所依」的一貫宗旨。</td></tr></tbody></table><p class="bh71p3-note">本表為卷七十一第3品「釋方便品」的原文·白話·中觀三欄對照。本品立「有方便／無方便」之判：以我我所心行六度則著相自高、成有漏善而非波羅蜜，遠離此彼岸方是波羅蜜相；以無我我所心行六度、三輪體空即有方便，知此岸彼岸本空無二而受般若之護，疾得菩提。論釋界定有方便為內遣我我所（人空）、外觀法空不取相（法空），並揭守護之雙軌——五度得功德力、般若得智慧力，福慧雙運故不失道。白話忠於原意、不增不減。</p></div></div>
+<script id="wy-bh71p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh71p3Btn"),BOX=document.getElementById("bh71p3Box"),MODAL=document.getElementById("bh71p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+var CAND=["c71p3Box"];
+function place(){
+  var b=null;
+  for(var i=0;i<CAND.length;i++){var el=document.getElementById(CAND[i]);if(!el)continue;var st=getComputedStyle(el);var r=el.getBoundingClientRect();if(st.position==="fixed"&&r.height>4&&st.display!=="none"){var v=Math.round(window.innerHeight-r.top)+8;if(b===null||v>b)b=v;}}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh71p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH71P3:END-->
 </body>
 </html>
