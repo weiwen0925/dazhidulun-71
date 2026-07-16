@@ -2097,5 +2097,61 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH71P4:END-->
+<!--WY-BH71P5:BEGIN-->
+<style id="wy-bh71p5-css">
+.bh71p5-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh71p5-fabbox.show{display:block;}
+.bh71p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a69,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh71p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh71p5-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh71p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh71p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh71p5-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh71p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh71p5-modal.open{display:flex;}
+.bh71p5-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh71p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh71p5-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh71p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh71p5-close:hover{background:#dde2e6;}
+.bh71p5-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh71p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh71p5-tbl th,.bh71p5-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh71p5-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh71p5-tbl thead th:nth-child(1){width:32%;}.bh71p5-tbl thead th:nth-child(2){width:41%;}.bh71p5-tbl thead th:nth-child(3){width:27%;}
+.bh71p5-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh71p5-guan{background:#eef2f5;color:#37505f;}
+.bh71p5-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh71p5-tbl tbody tr:nth-child(even) td.bh71p5-guan{background:#e8eef2;}
+.bh71p5-tbl b{color:#8b2500;}
+.bh71p5-guan b{color:#2f6b5a;}
+.bh71p5-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh71p5-note b{color:#8b2500;}
+@media(max-width:900px){.bh71p5-fabbox{right:14px;}.bh71p5-tbl{font-size:11px;}.bh71p5-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh71p5-fabbox" id="bh71p5Box"><button class="bh71p5-btn" id="bh71p5Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh71p5-ic">譯</span><span class="bh71p5-ls"><span class="bh71p5-l1">本品 · 原文·白話·中觀</span><span class="bh71p5-l2">白話翻譯表</span></span></button></div><div class="bh71p5-modal" id="bh71p5Modal" role="dialog" aria-modal="true"><div class="bh71p5-card"><button class="bh71p5-close" id="bh71p5Close" type="button" aria-label="關閉">×</button><h3>卷七十一 · 第5品 於性空中建構大悲 白話翻譯表</h3><p class="sub">《大智度論》卷七十一 · 善知識品續義 · 原文↔白話↔中觀概念 逐段對照（性空中發大悲難事·為安隱安樂救歸依處究竟道洲將導九事發心·九事皆導歸涅槃畢竟空·以負空間定義涅槃洲·安穩非世樂苦藥喻·無依止方為真依止·依止二種破妄依立真依·三際皆空八正道船接度）</p><table class="bh71p5-tbl"><caption>《大智度論》卷七十一·原文｜白話翻譯｜中觀概念（共6段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh71p5-src">須菩提白佛言：「世尊！諸菩薩摩訶薩能為難事——於一切性空法中求阿耨多羅三藐三菩提，欲得阿耨多羅三藐三菩提。」佛言：「如是！如是！須菩提！菩薩摩訶薩能為難事——於一切性空法中求阿耨多羅三藐三菩提，欲得阿耨多羅三藐三菩提。須菩提！諸菩薩摩訶薩為安隱世間故，發阿耨多羅三藐三菩提心；為安樂世間故、為救世間故、為世間歸故、為世間依處故、為世間洲故、為世間將導故、為世間究竟道故、為世間趣故，發阿耨多羅三藐三菩提心。」</td><td>須菩提對佛說：「世尊！諸位大菩薩能做極難之事——在一切本性皆空的法中，卻仍去求無上正等正覺、想要證得無上正等正覺。」佛說：「正是如此、正是如此！須菩提！大菩薩確能做這難事——於一切性空法中求無上菩提、欲得無上菩提。須菩提！諸位大菩薩正是為了使世間安隱，才發起無上菩提心；為了使世間安樂、為了救護世間、為了作世間的歸宿、為了作世間的依靠、為了作世間的洲渚、為了作世間的引導者、為了作世間的究竟道路、為了作世間的歸趣，而發起無上菩提心。」</td><td class="bh71p5-guan"><b>性空中發大悲·難事之所以難</b>——本品承上「知諸法性空而發無上心」，須菩提歎其為「難事」。難在何處？明知能求之心、所求之佛果、所度之眾生皆本性空，卻仍不捨救度、不廢修證。中觀的弔詭正在此：若執有實眾生可度、實菩提可得，是俗情；若因空而撥無因果、不發大悲，是惡取空。菩薩雙照——照見性空故不落實執，照見緣起故不捨大悲，於畢竟空中建立「安隱世間」等九事大願。這九事即是空性大悲的九種展開。</td></tr><tr><td class="bh71p5-src">安隱「菩薩摩訶薩得阿耨多羅三藐三菩提時，拔出六道眾生，著無畏岸涅槃處。」安樂「拔出眾生種種憂苦愁惱，著無畏岸涅槃處。」救「救眾生生死中種種苦，亦為斷是苦故而為說法；眾生聞法，漸以三乘而得度脫。」歸「拔出眾生生老病死相、憂悲愁惱法，著無畏岸涅槃處。」依處「為眾生說一切法無依處……色不相續即是色無生，色無生即是色不滅，色不滅即是色無依處；受、想、行、識乃至一切種智亦如是。」究竟道「為眾生說如是法：色究竟相非是色……如究竟相，一切法相亦如是。」洲「若江河大海，四邊水斷，是名為洲……色亦如是前後際斷……即是寂滅、即是妙寶——所謂空、無所得、愛盡無餘、離欲、涅槃。」將導「為眾生說色不生不滅、不垢不淨……乃至說佛十力乃至一切種智不生不滅、不垢不淨。」</td><td>（佛逐一解說九事：）「安隱」——菩薩證得無上菩提時，把六道眾生拔救出來，安置於無所畏懼的涅槃彼岸。「安樂」——拔除眾生種種憂苦愁惱，安置於無畏的涅槃處。「救」——救眾生於生死中的種種苦，並為斷除此苦而為他們說法；眾生聞法，漸次依聲聞、緣覺、菩薩三乘而得度脫。「歸」——拔除眾生生老病死之相與憂悲愁惱之法，安置於無畏涅槃。「依處」——為眾生宣說一切法本無所依處：色法前後不相續，即是色的無生；色無生即是色不滅；色不滅即是色無所依處；受、想、行、識乃至一切種智也都如此。「究竟道」——為眾生宣說：色的究竟真相並不是色（相）……正如色的究竟相，一切法的相也都如此。「洲」——如江河大海之中，四面水流被截斷之處，就叫洲渚……色法也是這樣，前際後際皆斷絕……這就是寂滅、就是妙寶——也就是空、無所得、愛盡無餘、離欲、涅槃。「將導」——為眾生宣說色不生不滅、不垢不淨……乃至宣說佛十力乃至一切種智也不生不滅、不垢不淨。</td><td class="bh71p5-guan"><b>九事皆導歸涅槃·以負空間定義本體</b>——佛把「安隱、安樂、救、歸、依處、究竟道、洲、將導」逐一界定，每一事的終點都指向同一處：涅槃、畢竟空、無所得。中觀最精微者在「依處」與「洲」二喻——「無依處」不是消極的無所憑靠，而是照見色法前後不相續（無生→不滅→無依），一切有為法緣生無自力，故不可依止，唯無依止的涅槃是真實；「洲」則以「四邊水斷」為喻，涅槃不是被填出來的實有物，而是「煩惱之水所不到之處」——純以負空間（水所不及）來定義本體。這正是般若「以遮顯中」的手法：不正面立一實體，而以層層遮遣顯畢竟空。</td></tr><tr><td class="bh71p5-src">須菩提發希有心白佛言：「諸菩薩未斷煩惱、大悲未具、未得阿鞞跋致，知諸法本性空而能發無上道心，是事甚難。」佛可其言：「如是！」更讚菩薩希有因緣，所謂菩薩安穩世間故發心。「安穩」者，能破一切煩惱，究竟不變失；譬如良藥能破病，不問甘苦，以能究竟除病、安穩故。佛能使眾生常安穩，不期一世、二世。世間樂者，有法雖安穩而不樂，有法今世苦、後世樂。如服苦藥，腹中安穩、口中不美。是故說：「佛能與今世、後世樂。」「依處」者，一切有為法從和合因緣生故，無有自力、不可依止。眾生為苦所逼來依止佛，佛為說無依止法。無依止法者是真實，所謂無餘涅槃，色等五眾滅，更不相續；不相續即是不生不滅，不生不滅即是畢竟空，無依止處。</td><td>須菩提生起稀有難得之心，對佛說：「諸菩薩尚未斷盡煩惱、大悲尚未圓具、也還沒到不退轉位，卻能了知諸法本性是空而發起無上道心，這實在是極難之事。」佛印可他的話：「正是如此！」並進一步讚歎菩薩發心的稀有因緣，也就是菩薩為了安穩世間而發心。所謂「安穩」，是能破除一切煩惱、究竟不再退變失壞；譬如良藥能治病，不問它味甘或味苦，只因它能徹底除病、令人安穩。佛能使眾生恆常安穩，不只期於一世、二世。至於世間之「樂」則不同：有的法雖安穩卻不覺得樂，有的法今世受苦而後世得樂。就像服苦藥，肚裡病癒安穩、口中卻不甜美。所以說：「佛能給予今世、後世之樂。」所謂「依處」，是說一切有為法都從眾緣和合而生，本身沒有自力、不可依靠。眾生被苦所逼迫，前來依止於佛，佛便為他們宣說「無所依止」之法。這無依止之法才是真實的，也就是無餘涅槃——色等五蘊滅盡、不再相續；不相續即是不生不滅，不生不滅即是畢竟空，正是那「無所依止之處」。</td><td class="bh71p5-guan"><b>安穩非世樂·無依止方為真依止</b>——論主釋「安穩」與「依處」。安穩重在「究竟除病」，故如苦藥不論甘苦，超越世間有漏之樂（樂有今苦後樂、安而不樂之別）。最深一著在「依處」的翻轉：眾生本求一可依止的實有靠山，佛偏說「無依止法」才是真依止。中觀的理路是——有為法緣生無自力，凡可依者皆終將壞滅，故依之即苦；唯有照見五蘊滅盡不相續（不生不滅、畢竟空）的涅槃，因其本無可壞，才是究竟的安穩歸依。「無依止」不是虛無，而是遣除一切虛妄依靠後所顯的真實。</td></tr><tr><td class="bh71p5-src">問曰：若無依止處，何以說依止？</td><td>問：既然說「一切法無所依止」，佛又為什麼還說眾生可以「依止」於佛、依止於涅槃呢？（豈非自相矛盾？）</td><td class="bh71p5-guan"><b>設問·無依與有依的表面相違</b>——這一問直逼「無依止」與「說依止」的張力。若一切無依，則佛之為歸、涅槃之為依，豈非空談？中觀慣以此類設問逼顯二諦：所破的「依」與所立的「依」層次不同，下答即以「依止二種」化解，展現遮詮與表詮的分工。</td></tr><tr><td class="bh71p5-src">答曰：依止有二種：一者、以愛、見等諸煩惱依止有為法；二者、清淨智慧說依止涅槃。煩惱見故說無依止。</td><td>答：「依止」有兩種：第一種，是以貪愛、邪見等種種煩惱去依止有為法（這是虛妄的攀緣）；第二種，是以清淨智慧而說的依止涅槃（這是真實的歸趣）。佛所破斥的「無依止」，是就前一種——因煩惱邪見而生的虛妄依止而說的。</td><td class="bh71p5-guan"><b>依止二種·破妄依而立真依</b>——龍樹以「二種依止」乾淨化解前問：所「無」的是染污依（愛見煩惱攀緣有為法，必隨所依而生苦），所「立」的是清淨依（智慧照涅槃畢竟空而為究竟歸）。這正是中觀二諦的精密操作——同一「依止」之名，在俗諦染邊須破，在真諦淨邊可立。破立不相礙：破妄依正為顯真依，非落斷滅。故「無依止」與「依止涅槃」並不矛盾，而是遮詮與表詮的一體兩面。</td></tr><tr><td class="bh71p5-src">「究竟道」者，所謂諸法實相、畢竟空。色等法，前際中無，後際中亦無；現在中，凡夫人憶想分別，業果報諸情力故有顛倒見；聖人以智慧眼觀之皆虛誑不實。如前、後，中亦爾；若無先後，云何有中？「世間洲」者，如洲四邊無地，色等法亦如是，前、後皆不可得……入前、後空故，中間亦空。「水」者，三漏、四流諸煩惱及業果報中一切法。畢竟空、無所取，所謂涅槃，是為洲。眾生沒在四流水中，佛以八正道船引著涅槃洲上。如是種種因緣接度眾生名為「將導」。</td><td>所謂「究竟道」，就是諸法的實相、畢竟空。色等諸法，在過去際中不可得、在未來際中也不可得；在現在，凡夫因憶想分別、被業與果報等情識之力所牽，才生起顛倒的實有見；而聖人以智慧之眼觀察，見這一切皆是虛誑不實的。既然前際、後際皆空，現在（中際）也是如此；若沒有前後可立，哪裡還有一個「中間」呢？所謂「世間洲」，如同洲渚四邊都沒有陸地，色等諸法也是這樣，前際後際皆不可得……由於前後皆入於空，中間也就空了。所謂「水」，是指三漏、四流等種種煩惱以及業與果報中的一切法。而畢竟空、無所取著，也就是涅槃，這才是真正的「洲」。眾生沉沒在四流的洪水之中，佛以八正道之船，把他們接引安置到涅槃的洲渚上。像這樣以種種因緣接引救度眾生，就叫「將導」。</td><td class="bh71p5-guan"><b>三際皆空·涅槃洲以八正道船接度</b>——論主釋「究竟道、洲、將導」。核心是「三際推破」：前際不可得、後際不可得，中際依前後而立，前後既空則中亦空——時間相被徹底遮遣，顯諸法本無實生。「洲」喻再深化：煩惱業報如四流洪水，眾生沒溺其中，唯畢竟空無所取的涅槃是水所不及的乾地。中觀不談離世間別有涅槃，而是照見流水（有為煩惱）當體無自性、不可得，其「不可得」處即是洲。佛以八正道為船「接度」，即是「將導」——空性大悲的具體行動：不捨一眾生，卻不見有實眾生可度。</td></tr></tbody></table><p class="bh71p5-note">本表為卷七十一第5品（善知識品續義·於性空中建構大悲）的原文·白話·中觀三欄對照。須菩提歎菩薩於性空中求菩提為難事，佛答菩薩為安隱世間等九事而發無上心，逐一導歸涅槃畢竟空；以無依止方為真依止、四邊水斷之洲以負空間定義涅槃。論釋安穩非世樂如苦藥、依止二種破妄依立真依、三際皆空、佛以八正道船接度眾生為將導。白話忠於原意、不增不減。</p></div></div>
+<script id="wy-bh71p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh71p5Btn"),BOX=document.getElementById("bh71p5Box"),MODAL=document.getElementById("bh71p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+var CAND=["c71p5Box"];
+function place(){
+  var b=null;
+  for(var i=0;i<CAND.length;i++){var el=document.getElementById(CAND[i]);if(!el)continue;var st=getComputedStyle(el);var r=el.getBoundingClientRect();if(st.position==="fixed"&&r.height>4&&st.display!=="none"){var v=Math.round(window.innerHeight-r.top)+8;if(b===null||v>b)b=v;}}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh71p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH71P5:END-->
 </body>
 </html>
